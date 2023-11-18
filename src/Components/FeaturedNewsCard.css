@@ -1,0 +1,39 @@
+.featuredCardStyle
+{
+    display:flex;
+    width:100%;
+}
+.cardStyle{
+    width:18rem;
+    margin: 20px;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 1.5rem;
+    height:400px;
+    display:flex;
+}
+.cardImage
+{
+    width: 270px;
+    height: 150px;
+    border-radius: 1.5rem;
+}
+@media only screen and (max-width:860px) {
+    .featuredCardStyle
+{
+    display:block;
+    justify-content: center;
+    
+}
+.cardStyle{
+    width:80%;
+    margin: 10px;
+    font-size: 13px;
+    padding: 10px;
+}
+    .cardImage
+    {
+        width: 100%;
+    }
+    
+}

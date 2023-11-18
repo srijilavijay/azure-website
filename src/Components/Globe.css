@@ -1,0 +1,36 @@
+.globeImage
+{
+    margin: 0px;
+    background-image: url("../../public/Desktop-AzureRegions-2x.avif");
+    height:300px;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+
+}
+.globeText{
+    padding: 100px;
+    text-align: center;
+    font-size: 13px;
+
+}
+.Globe-btn{
+    background-color: #0078d4;
+    font-size: 13px;
+}
+.Globe-btn:hover{
+    background-color: #006dc1;
+}
+@media only screen and (max-width:860px)
+{
+    .globeImage
+    {
+        width: 100%;
+        background-position: center;
+    }
+    .Globe-btn{
+        width:100%;
+    }
+}
