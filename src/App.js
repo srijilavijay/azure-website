@@ -8,17 +8,17 @@ import Solutions from './Components/Solutions';
 import ProductsAndServices from './Components/ProductsAndServices';
 import Resources from './Components/Resources';
 import Globe from './Components/Globe';
+import GetMoreValue from './Components/GetMoreValue';
 import CustomerStories from './Components/CustomerStories';
 import TakeTheNextStep from './Components/TakeTheNextStep';
-import FooterMenu from './Components/FooterMenu';
 import Footer from './Components/Footer';
-import GetMoreValue from './Components/GetMoreValue';
+
 
 
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Navbar1/>
       <Banner/>
       <FeaturedNewsBar/>
@@ -32,7 +32,6 @@ function App() {
       <GetMoreValue/>
       <CustomerStories/>
       <TakeTheNextStep/>
-      <FooterMenu/>
       <Footer/>
     </div>
   );

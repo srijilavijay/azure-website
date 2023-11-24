@@ -1,0 +1,30 @@
+.Solutions
+{
+    background-color: #e9f0f6;
+    background-image: url("../../public/Mobile-Solutions-BG-2x.avif");
+    background-position: left;
+    background-repeat: no-repeat;
+    height:500px;
+}
+
+
+.Solbtn{
+    background-color: #0078d4;
+    font-size: 13px;
+    margin-right: 10px;
+    border-radius: 1.5rem;
+    padding:5px  15px;
+}
+@media only screen and (max-width:"860px")
+{
+    .Solutions
+{
+    background-color: #e9f0f6;
+    background-image: url("../../public/Mobile-Solutions-BG-2x.avif");
+    background-position: left;
+    background-repeat: no-repeat;
+    width:100%;
+    height:700px;
+}
+
+}

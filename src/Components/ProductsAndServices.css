@@ -1,0 +1,12 @@
+.ProductsAndServices
+{
+    background-image: url('../../public/Desktop-Product-Services-BG-2x.avif');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.ProductContent{
+    margin-left: 50px;
+}

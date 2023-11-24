@@ -6,7 +6,7 @@ function FeaturedNewsCard() {
   const [card1, setCard1] = useState([
     {
       cardImg:
-        "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/FeaturedNews-Card1-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=624&hei=266&qlt=94&fit=constrain",
+        "./FeaturedNews-Card1-2x.avif",
       cardTitle: "Microsoft Ignite",
       cardText:
         "Explore the latest Azure innovations, learn from experts, level up your skillset, and expand your network.",
@@ -14,7 +14,7 @@ function FeaturedNewsCard() {
     },
     {
       cardImg:
-        "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/FeaturedNews-Card2-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=624&hei=268&qlt=95&fit=constrain",
+        "./FeaturedNews-Card2-2x.avif",
       cardTitle: "Discover the latest AI innovations",
       cardText:
         "Deliver intelligent solutions and differentiate your business with cutting-edge AI—explore the latest AI tools and features from Azure.",
@@ -22,7 +22,7 @@ function FeaturedNewsCard() {
       },
     {
       cardImg:
-        "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/FeaturedNews-Card3-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=833&hei=358&qlt=85&fit=constrain",
+        "./FeaturedNews-Card3-2x.avif",
       cardTitle: "Optimize operations in the cloud",
       cardText:
         "Seamlessly migrate your mission-critical workloads and deliver cloud agility anywhere with the newest infrastructure capabilities.",
@@ -33,11 +33,11 @@ function FeaturedNewsCard() {
     <div className="featuredCardStyle">
       {card1.map((display) =>(
         <Card className="cardStyle">
-          <img className="cardImage" src={display.cardImg} />
-          <Card.Body>
-            <Card.Title>{display.cardTitle}</Card.Title>
+          <img className="cardImg" src={display.cardImg} />
+          <Card.Body className="Cbody">
+            <Card.Title >{display.cardTitle}</Card.Title>
             <Card.Text>{display.cardText}</Card.Text>
-            <Button variant="primary">&rarr;</Button>{display.buttonText}
+            <Button className="Cbtn">&rarr;</Button>{display.buttonText}
           </Card.Body>
         </Card>
       ))}

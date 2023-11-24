@@ -1,0 +1,21 @@
+.TakeTheNextStepCard
+{
+    display:flex;
+    justify-content: left;
+    font-size: 13px;
+}
+.cardStyl
+{
+    width:"16rem";
+    font-size: 13px;
+    height: 250px;
+    margin:20px;
+}
+.cardImage
+{
+    margin: 10px;
+    padding: 10px;
+    width:50px;
+    height:50px;
+    border: 1px solid black;
+}

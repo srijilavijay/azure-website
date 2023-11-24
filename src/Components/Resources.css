@@ -1,0 +1,21 @@
+.Resources
+{
+    background-image: url("../../public/Desktop-Resource-BG-2x1.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+    
+}
+.ResourcesContent
+{
+    padding: 50px;
+}
+.ResourcesItProfessional
+{
+    margin-top: 50px;
+    height:400px;
+    width:700px;
+    border-radius: 1.5rem;
+}

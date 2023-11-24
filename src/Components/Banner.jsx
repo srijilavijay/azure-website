@@ -4,12 +4,8 @@ import { Button } from "react-bootstrap";
 
 function Banner() {
   return (
-    <div className="bannerStyle">
-      <img
-        className="bannerImg"
-        src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-Hero-Nov_New?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=202&qlt=95&fmt=png-alpha&fit=constrain"
-        alt=""
-      />
+    <div className="bannerStyle" >
+     
       <div className="bannerText">
         <h1>Learn, connect, and explore</h1>
         <p>

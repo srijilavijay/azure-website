@@ -1,10 +1,11 @@
 import React from 'react'
 import FeaturedNewsCard from './FeaturedNewsCard'
+import './FeaturedNews.css'
 
 function FeaturedNews() {
   return (
-    <div style={{padding:"50px"}}>
-      <p style={{fontSize:"15px"}}>FEATURED NEWS</p>
+    <div className='FNews'>
+      <p className='PFNews'>FEATURED NEWS</p>
       <h3>Discover what’s happening on Azure</h3>
       <FeaturedNewsCard/>
     </div>

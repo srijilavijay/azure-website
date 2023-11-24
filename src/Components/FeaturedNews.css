@@ -1,0 +1,21 @@
+.FNews
+{
+    padding:50px;
+}
+.PFNews 
+{
+    font-size:15px;
+}
+@media only screen and (max-width:"860px") {
+    .FNews
+{
+    position: absolute;
+    Top:800px;
+    padding:50px;
+    
+}
+.PFNews 
+{
+    font-size:15px;
+}
+}
